@@ -6,3 +6,8 @@
 
  Paso   Acción                       Notas
 ====== ============================ ================================
+  01    clone URL
+  02    añadir nombre y apellidos
+  03    add bitacora.txt  commit -m "Paso 03"
+  04    push origin
+  
