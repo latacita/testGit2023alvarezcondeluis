@@ -28,4 +28,9 @@
   25    checkout develop
   26    merge feature/Ticket220         Con Sourcetree para que sea recursivo selecciono nuevo commit aunque se pueda hacer por fast-forward
   27    merge feature/Ticket221         Fusión recursiva con conflcitos, se solucionan manualmente con el editor
+  29    add bitacora.txt  commit -m "Paso 29"
+  30    tag Step29
+  31    push develop
+  32    checkout feature/Ticket222
+  33    checkout develop bitacora.txt
 
