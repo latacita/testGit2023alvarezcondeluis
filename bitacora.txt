@@ -33,4 +33,8 @@
   31    push develop
   32    checkout feature/Ticket222
   33    checkout develop bitacora.txt
-
+  35    add bitacora.txt  commit -m "Paso 35"
+  36    checkout develop
+  37    merge feature/Ticket222         Uso la opcion de crear un nuevo commit aunque se pueda hacer por fast-forward
+  38    checkout master
+  39    merge develop                   Uso la opcion de crear un nuevo commit aunque se pueda hacer por fast-forward
