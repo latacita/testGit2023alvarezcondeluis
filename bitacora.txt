@@ -13,9 +13,19 @@
   06    add bitacora.txt  commit -m "Paso 06"
   07    branch develop
   08    branch feature/Ticket220  checkout feature/Ticket220
+  10    add bitacora.txt  commit -m "Paso 10"
+  11    checkout develop
+  12    branch feature/Ticket221  checkout feature/TIcket221
   14    stash   checkout feature/Ticket220
+  16    add bitacora.txt  commit -m "Paso 16"
+  17    checkout feature/Ticket221
   18    stash apply
   19    add bitacora.txt  commit -m "Paso 19"
   20    checkout develop
   21    branch feature/Ticket222
   22    checkout feature/Ticket220      La fusion se haria por fast-forward
+  24    add bitacora.txt  commit -m "Paso 24"
+  25    checkout develop
+  26    merge feature/Ticket220         Con Sourcetree para que sea recursivo selecciono nuevo commit aunque se pueda hacer por fast-forward
+  27    merge feature/Ticket221         Fusión recursiva con conflcitos, se solucionan manualmente
+  
